@@ -108,10 +108,6 @@ npm run build
 npm start
 ```
 
-### 6. Access the Application
-- **Frontend:** http://localhost:3000
-- **Backend API:** http://localhost:5000
-- **API Test Endpoint:** http://localhost:5000/api/test
 
 
 ### Creating Admin Users
@@ -184,12 +180,6 @@ PORT=5000
 MONGODB_URI=your-production-mongodb-uri
 JWT_SECRET=your-production-jwt-secret
 ```
-
-
-
-
-
-
 ##  Troubleshooting
 
 ### Common Issues
