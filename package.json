@@ -8,9 +8,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm start",
-    "postinstall": "npm run install-deps",
+    "postinstall": "npm run install-deps && npm run build",
     "install-deps": "cd backend && npm install && cd ../frontend && npm install",
-    "build": "cd frontend && npm run build"
+    "build": "cd frontend && npm install && npm run build"
   },
   "keywords": ["linkedin", "community", "platform", "react", "nodejs", "mongodb"],
   "author": "",
@@ -23,3 +23,4 @@
   }
 
 }
+
