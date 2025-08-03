@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background Shape -->
+  <rect width="500" height="400" rx="20" fill="#f8f9fa" opacity="0.5"/>
+  
+  <!-- Lock Body -->
+  <rect x="175" y="120" width="150" height="180" rx="20" fill="#0a66c2"/>
+  
+  <!-- Lock Shackle -->
+  <path d="M200 120V80C200 55 225 40 250 40C275 40 300 55 300 80V120" stroke="#0a66c2" stroke-width="25" stroke-linecap="round"/>
+  
+  <!-- Keyhole -->
+  <circle cx="250" cy="200" r="30" fill="white"/>
+  <path d="M250 210L250 240" stroke="white" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="80" r="15" fill="#0a66c2" opacity="0.3"/>
+  <circle cx="400" cy="80" r="15" fill="#0a66c2" opacity="0.3"/>
+  <circle cx="100" cy="320" r="15" fill="#0a66c2" opacity="0.3"/>
+  <circle cx="400" cy="320" r="15" fill="#0a66c2" opacity="0.3"/>
+  
+  <!-- Connection Lines -->
+  <path d="M100 80L175 120" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M400 80L325 120" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M100 320L175 300" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M400 320L325 300" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  
+  <!-- Shine Effect -->
+  <circle cx="220" cy="150" r="10" fill="white" opacity="0.5"/>
+  <circle cx="210" cy="170" r="5" fill="white" opacity="0.3"/>
+  
+  <!-- Pulse Animation -->
+  <circle cx="250" cy="200" r="40" fill="none" stroke="white" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="40;60;40" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
