@@ -131,7 +131,7 @@ if (process.env.NODE_ENV === 'production') {
   // Any route that is not an API route should be handled by React
   app.get('*', (req, res) => {
     if (!req.path.startsWith('/api') && !req.path.startsWith('/uploads')) {
-      res.sendFile(path.resolve(__dirname, '../frontend/build', 'index.html'));
+      res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
     }
   });
 }
@@ -150,5 +150,6 @@ app.listen(PORT, () => {
   console.log(`Test the API at: http://localhost:${PORT}/api/test`);
 
 });
+
 
 
