@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background Shape -->
+  <rect width="500" height="400" rx="20" fill="#f8f9fa" opacity="0.5"/>
+  
+  <!-- Document Shape -->
+  <rect x="150" y="80" width="200" height="250" rx="10" fill="white" stroke="#0a66c2" stroke-width="3"/>
+  
+  <!-- Form Lines -->
+  <rect x="180" y="120" width="140" height="10" rx="5" fill="#0a66c2" opacity="0.7"/>
+  <rect x="180" y="150" width="140" height="10" rx="5" fill="#0a66c2" opacity="0.5"/>
+  <rect x="180" y="180" width="140" height="10" rx="5" fill="#0a66c2" opacity="0.5"/>
+  <rect x="180" y="210" width="140" height="10" rx="5" fill="#0a66c2" opacity="0.5"/>
+  
+  <!-- Checkmark -->
+  <circle cx="250" cy="260" r="25" fill="#0a66c2"/>
+  <path d="M235 260L245 270L265 250" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="15" fill="#0a66c2" opacity="0.3"/>
+  <circle cx="400" cy="100" r="15" fill="#0a66c2" opacity="0.3"/>
+  <circle cx="100" cy="300" r="15" fill="#0a66c2" opacity="0.3"/>
+  <circle cx="400" cy="300" r="15" fill="#0a66c2" opacity="0.3"/>
+  
+  <!-- Connection Lines -->
+  <path d="M100 100L150 120" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M400 100L350 120" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M100 300L150 280" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M400 300L350 280" stroke="#0a66c2" stroke-opacity="0.3" stroke-width="2"/>
+  
+  <!-- Pen -->
+  <path d="M380 180L350 210L340 200L370 170L380 180Z" fill="#0a66c2"/>
+  <path d="M340 200L335 215L350 210L340 200Z" fill="#0a66c2"/>
+  
+  <!-- Pulse Animation -->
+  <circle cx="250" cy="260" r="35" fill="none" stroke="#0a66c2" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="35;50;35" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
