@@ -124,7 +124,7 @@ app.use((err, req, res, next) => {
 // Add this code before the 404 handler (around line 120)
 
 // Serve static assets in production
-if (process.env.NODE_ENV === 'production') {
+
   // Set static folder
   app.use(express.static(path.join(__dirname, '../frontend/build')));
 
@@ -134,7 +134,7 @@ if (process.env.NODE_ENV === 'production') {
       res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
     }
   });
-}
+
 
 // Keep your existing 404 handler for API routes
 app.use('/api/*', (req, res) => {
@@ -150,6 +150,7 @@ app.listen(PORT, () => {
   console.log(`Test the API at: http://localhost:${PORT}/api/test`);
 
 });
+
 
 
 
